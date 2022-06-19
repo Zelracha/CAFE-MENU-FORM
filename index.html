@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ROKU TEA SHOP </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="https://www.logolynx.com/images/logolynx/e5/e5415c43af9bd09f9036c67d90453f9e.jpeg">
+    </head>
+    <body>
+    <header>  
+        <img class="img-logo" src="https://static.vecteezy.com/system/resources/thumbnails/002/909/351/small/bubble-milk-tea-special-promotions-design-boba-milk-tea-pearl-milk-tea-yummy-drinks-coffees-and-soft-drinks-with-logo-and-cute-funny-doodle-style-advertisement-banner-illustration-vector.jpg" alt="ROKU TEA SHOP LOGO">
+        <h1 class="header-h1"> ROKU TEA SHOP</h1>
+    </header>
+    <main>
+            <form>
+            <fieldset>
+                <h2> Create your order: </h2>
+                <p class="order-step">STEP 1: CHOOSE YOUR COFFEE SIZE </p>
+            <label><input type="radio" value="coffee-size" name="coffee-size"> Small </label>
+            <label><input type="radio" value="coffee-size" name="coffee-size"> Medium </label>
+            <label><input type="radio" value="coffee-size" name="coffee-size"> Large </label> 
+                    <label>Quantity: </label>
+                    <input type="number" min="1" max="250" required>   
+            </fieldset>
+
+            <fieldset>
+                <h2> STEP 2: CHOOSE FLAVOR</h2>
+                <p class="order-step"> CHOOSE ACCORDING TO YOUR QUANTITY ORDER </p>
+                <label><input type="checkbox" name="coffee-flavor"> ICED COFFEE CHOCOLATE </label>
+                <label><input type="checkbox" name="coffee-flavor"> VANILLA </label>
+                <label><input type="checkbox" name="coffee-flavor"> CHOCOLATE </label>
+                <label><input type="checkbox" name="coffee-flavor"> CARAMEL </label>
+                <label><input type="checkbox" name="coffee-flavor"> ICED COFFEE WITH MILK </label>
+                <label><input type="checkbox" name="coffee-flavor"> ICED ESPRESSO </label>
+                <label><input type="checkbox" name="coffee-flavor"> AMERICANO </label>
+            </fieldset>
+
+            
+            <fieldset>
+                <h2> FINALIZE YOUR ORDER </h2>
+                <p class="order-step"> ENTER YOUR DETAILS: </p>
+                <label>Enter your name: <input  type="text" name="name" required> </label>
+                <label>Enter your Email: <input  type="email" name="email" required> </label>
+                <label>Enter Address: <input  type="text" name="address" required>  </label>
+                <label>Use this as your main address? </label>
+                    <input class="inline" type="radio" name="yes-no"> Yes
+                    <input class="inline" type="radio" name="yes-no"> No
+                <label><input type="checkbox" name="terms" > I accept the terms and conditions </label>
+            </fieldset> 
+            <input type="submit" value="Submit">
+
+            
+
+    </form>
+    </main>
+
+
+</body>
+</html>
